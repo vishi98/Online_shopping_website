@@ -1,0 +1,93 @@
+.topnav {
+  overflow: hidden;
+ 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  color:black;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+body {
+    background-color: #F9F54B;
+}
+
+footer {
+  text-align: center;
+  background-color: #205E61;
+  color: white;
+  padding: 3px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.register {
+    text-align:center;
+    margin-top: 150px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+    padding: 20px;
+}
+
+.buttonr {
+    padding: 8px;
+}
+.buttonr:hover {
+  opacity: 0.7;
+}
+
+.hind {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card1 {
+    margin-bottom: 100px;
+
+}

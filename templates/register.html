@@ -1,0 +1,28 @@
+{% include "header.html" %}
+
+<div class="register">
+  <h1>Register</h1>
+  <div>
+    <form action="/register" method="post">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <br>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <br>
+      <button class="buttonr" type="submit">Register</button>
+    </form>
+  </div>
+</div>
+
+
+{% include "footer.html" %}
